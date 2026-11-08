@@ -1,0 +1,117 @@
+ .navbar{
+                display: flex;
+                
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                
+                
+            }
+            .navbar{
+                background-color: whitesmoke;
+            }
+            .links{
+                display: flex;
+                gap: 40px;
+                list-style: none;
+                
+                
+                
+                
+            }
+            .log-head {
+                display: flex;
+                gap:5px;
+                align-items: center;
+                
+            }
+            .log-head {
+                object-fit: contain;
+                border-radius: 8px;
+                
+            }
+
+            .df-link {
+                color:#000;
+                text-decoration: none;
+                transition: color 0.2s ease;
+
+                
+            }
+            #sg-btn {
+                height: 40px;
+                width: 80px;
+                border-radius: 10px;
+                margin: 0px;
+                padding: 0px;
+                color: white;
+                background-color: blueviolet;
+                cursor: pointer;
+                transition: background-color 0.5s ease-out;
+                
+            }
+            .navbar button:hover {
+                background-color: rgb(113, 79, 246) !important;
+            }
+            .df-link:hover,
+            .active-link {
+                color: blueviolet;
+                text-decoration: underline;
+                text-decoration-color:#000 ;
+                text-decoration-thickness:2px ;
+            }
+            #navtitle {
+                margin: 0;
+                font-size: 25px;
+                font-weight: 1000;
+            }
+            #sg-btn {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+/* Hero section */
+
+.hero-sec{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrZ9_XsDSIWNgdqsBsPvYJnt0EA6c1woTg_323RcsocBqA08u1jJ9zrHrm&s=10");
+    background-size: cover;
+    background-position:center ;
+    background-repeat: no-repeat;
+    
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+
+
+    min-height: 350px;
+    
+    box-sizing: border-box;
+}
+.hero-sec h1 {
+    font-size: 50px;
+}
+.hero-sec p{
+    font-size: 24px;
+}
+.hero-sec h1,p,button{
+    margin-left: 50px ;
+}
+#exp-btn {
+    background-color: blueviolet;
+    color: white;
+    height: 40px;
+    width: 200px;
+    border-radius: 8px;
+    border:1px solid black;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+.hero-sec button:hover{
+    background-color: rgb(151, 113, 204) !important;
+}
+
+             
+            

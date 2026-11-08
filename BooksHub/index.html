@@ -5,67 +5,19 @@
         <meta name="viewport" content="width=device-width"/>
         <meta name="author" content="HARIPRASAD P S"/>
         <!--Style-->
-        <style>
-            .navbar{
-                display: flex;
-                
-                flex-direction: row;
-                align-items: center;
-                justify-content: space-between;
-                
-                
-            }
-            .navbar{
-                background-color: whitesmoke;
-            }
-            .links{
-                display: flex;
-                gap: 40px;
-                list-style: none;
-                
-                
-                
-                
-            }
-            .log-head {
-                display: flex;
-                gap:5px;
-                align-items: center;
-                
-            }
-            .log-head {
-                object-fit: contain;
-                
-            }
-
-            .df-link {
-                color:#000;
-                text-decoration: none;
-                
-            }
-            #sg-btn {
-                height: 40px;
-                width: 80px;
-                border-radius: 10px;
-                margin: 0px;
-                padding: auto;
-                color: white;
-                background-color: blueviolet;
-            }
-            
-        </style>
+        <link rel="stylesheet" href="style.css" type="text/css" />
     </head>
 
     <body>
         <!--Navbar(felx box) first-->
         <div class="navbar">
-            <div class="log-head">
+            <div class="log-head" >
             <img id="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROmF5c50eGJiFOk1eTNPknDaaN5l7uLlA6_f6lAHWHlA&s=10" height="40px" width="40px">
-            <p id="navtitle">BooksHub</p>
+            <p id="navtitle"><b>BooksHub</b></p>
             </div>
             <ul class="links">
-                <li><a href="#" class="df-link">Home</a></li>
-                <li><a href="#" class="df-link">Books</a></li>
+                <li><a href="index.html" class="df-link active-link" >Home</a></li>
+                <li><a href="#" class="df-link ">Books</a></li>
                 <li><a href="#" class="df-link">categories</a></li>
                 <li><a href="#" class="df-link">About</a></li>
                 <li><a href="#" class="df-link">Contact</a></li>
@@ -78,6 +30,13 @@
 
 
         </div>
+        <!--Hero section-->
+        <section class="hero-sec">
+            <h1 style="color: blueviolet;">Discover Your Next Favorite Book</h1>
+            <p style="color: aliceblue;">Explore thousands of books and find your next great read.</p>,<br>
+            <button id="exp-btn"><b>Explore Books  → </b></button>
+            
+        </section>
 
     </body>
 </html>
